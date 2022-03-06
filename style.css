@@ -1,0 +1,158 @@
+body{
+    background: #F5F5F5;
+    font-family: 'Raleway', sans-serif;
+    color: hsl(0, 0%, 27%);
+    margin: 0 auto;
+}
+
+header{
+    background: #F5F5F5;
+    padding: 40px 60px;
+
+}
+
+
+.imagem{
+    margin-bottom:8px;
+    margin-right: 2px;
+}
+
+.imagem-2{
+    margin-left: -8px;
+    margin-bottom: 6px;
+}
+
+.imagem-3{
+    margin-bottom: 18px;
+    margin-left: -12px;
+    margin-top: -2px;
+
+}
+.nome{
+    display: inline-block;
+}
+
+nav{
+    float: right;
+}
+
+
+.nome p{
+    font-weight: bold;
+    margin-left: 5px;
+    display: inline;
+    vertical-align: top;
+}
+
+nav a{
+    text-decoration: none;
+    color: hsl(0, 0%, 27%);
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 32px;
+}
+
+
+/*seção apresentação*/
+
+.secao-apresentacao{
+    padding: 10px;
+
+}
+
+.texto-apresentacao{
+    display: inline-block;
+    vertical-align: top;
+    width: 65%;
+    margin-left: 50px;
+    margin-top: 70px;
+    
+}
+
+.texto-apresentacao h1{
+    font-weight: bold;
+    font-size: 52px;
+}
+
+.texto-apresentacao p {
+    font-size: 22px;
+    margin-top: 24px;
+}
+
+.imagem-perfil {
+    width: 25%;
+    border-radius: 50%;
+    margin: 10px; 
+}
+.redes li{
+    display: inline;
+    margin-right: 32px;
+}
+.redes{
+    margin-top: 22px;
+}
+
+
+/*seção sobre mim*/
+
+.secao-sobre-mim{
+    background: #EAF2FD;
+    padding: 60px 60px;
+    border-radius: 15px;
+}
+
+.secao-sobre-mim h2{
+    font-size: 32px;
+    font-weight: bold;
+}
+.secao-sobre-mim p{
+    font-size: 16px;
+    width: 70%;
+    margin-top: 22px;
+}
+
+
+/*seção skills e hobbies*/
+
+.secao-skills{
+    padding: 40px 60px;
+    text-align: center;
+}
+
+.secao-skills h2, .secao-hobbies h2 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.secao-skills ul, .secao-hobbies ul {
+    margin-top: 40px;
+
+}
+
+.secao-skills li, .secao-hobbies li{
+    background: white;
+    display: inline-block;
+    width: 136px;
+    height: 134px;
+    text-align: left;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 2.5%;
+}
+
+.secao-skills img, .secao-hobbies img{
+    margin-top: 70px;
+}
+
+
+.secao-hobbies{
+    padding: 0 60px;
+    text-align: center;
+}
+
+
+
+
+
