@@ -1,7 +1,9 @@
 body{
     background: #F5F5F5;
     font-family: 'Raleway', sans-serif;
-    color: hsl(0, 0%, 27%);  
+    color: hsl(0, 0%, 27%); 
+    width: 1080px;
+    margin: 0 auto; 
 }
 
 /*cabeçalho*/
