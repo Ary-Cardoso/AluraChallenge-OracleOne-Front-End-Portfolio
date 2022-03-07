@@ -1,9 +1,10 @@
 body{
     background: #F5F5F5;
     font-family: 'Raleway', sans-serif;
-    color: hsl(0, 0%, 27%);
-    margin: 0 auto;
+    color: hsl(0, 0%, 27%);  
 }
+
+/*cabeçalho*/
 
 header{
     background: #F5F5F5;
@@ -52,6 +53,11 @@ nav a{
 nav li{
     display: inline;
     margin: 0 0 0 32px;
+    
+}
+
+nav li:last-child{
+    font-weight: bold;
 }
 
 
@@ -59,7 +65,7 @@ nav li{
 
 .secao-apresentacao{
     padding: 10px;
-
+    clear: right;
 }
 
 .texto-apresentacao{
@@ -151,8 +157,3 @@ nav li{
     padding: 0 60px;
     text-align: center;
 }
-
-
-
-
-
