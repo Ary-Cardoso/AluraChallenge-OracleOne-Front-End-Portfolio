@@ -31,6 +31,7 @@ header{
 }
 .nome{
     display: inline-block;
+    Vertical-align: top;
 }
 
 nav{
