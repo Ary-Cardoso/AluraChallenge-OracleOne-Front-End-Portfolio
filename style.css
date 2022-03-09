@@ -161,7 +161,7 @@ nav li:last-child{
 }
 
 /*versão mobile*/
-@media screen and (max-width: 580px){
+@media screen and (max-width: 900px){
     header, .secao-apresentacao,.secao-sobre-mim , .secao-skills, .secao-hobbies{
         width: 100%;
         margin: 0 auto;
