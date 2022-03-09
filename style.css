@@ -161,28 +161,24 @@ nav li:last-child{
 }
 
 /*versão mobile*/
-@media screen and (max-width: 600px){
-    header, .secao-apresentacao,.secao-sobre-mim , .secao-skills, .secao-hobbies{
-        width: 100%;
-        margin: 0 auto;
+@media (max-width: 600px){
+     header .secao-apresentacao,.secao-sobre-mim , .secao-skills, .secao-hobbies{
+      width: auto;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    nav li{
+        display: none;
     }
     .secao-apresentacao{
-        margin-top: 20px;
-        display: flex;
-        flex-direction:column-reverse;
-
+       margin: 0 auto;
     }
-    .texto-apresentacao h1{
-        font-size: 22px;
-    }
-    .texto-apresentacao p{
-        font-size: 14px;
+    .texto-apresentacao{
+        margin: 0;
     }
     .imagem-perfil{
-        margin-left: 50px;
-        width: 50%;
+        width: 50%;  
     }
-
     .texto-apresentacao,.secao-sobre-mim h1, .secao-sobre-mim p{
         width: 100%;
     }
