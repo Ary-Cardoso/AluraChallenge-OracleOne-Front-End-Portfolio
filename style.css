@@ -159,3 +159,32 @@ nav li:last-child{
     padding: 0 60px;
     text-align: center;
 }
+
+/*versão mobile*/
+@media screen and (max-width: 480px){
+    header, .secao-apresentacao,.secao-sobre-mim , .secao-skills, .secao-hobbies{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .secao-apresentacao{
+        margin-top: 20px;
+        display: flex;
+        flex-direction:column-reverse;
+
+    }
+    .texto-apresentacao h1{
+        font-size: 22px;
+    }
+    .texto-apresentacao p{
+        font-size: 14px;
+    }
+    .imagem-perfil{
+        margin-left: 50px;
+        width: 50%;
+    }
+
+    .texto-apresentacao,.secao-sobre-mim h1, .secao-sobre-mim p{
+        width: 100%;
+    }
+
+}
