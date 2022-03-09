@@ -1,5 +1,5 @@
 body{
-    
+    background: #F5F5F5;
     font-family: 'Raleway', sans-serif;
     color: hsl(0, 0%, 27%);  
 }
@@ -161,7 +161,7 @@ nav li:last-child{
 }
 
 /*versão mobile*/
-@media (max-width: 600px){
+@media screen and (max-width: 600px){
     header, .secao-apresentacao,.secao-sobre-mim , .secao-skills, .secao-hobbies{
         width: 100%;
         margin: 0 auto;
