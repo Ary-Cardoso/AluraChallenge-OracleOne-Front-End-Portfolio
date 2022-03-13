@@ -205,10 +205,6 @@ nav li:last-child{
       padding: 20px;
     }
 
-    nav li{
-        display: none;
-    }
-
     .secao-apresentacao{
        margin: 0 auto;
     }
