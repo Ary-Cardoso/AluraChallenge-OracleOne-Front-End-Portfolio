@@ -1,7 +1,7 @@
 body{
     background: #F5F5F5;
     font-family: 'Raleway', sans-serif;
-    color: hsl(0, 0%, 27%);  
+    color: hsl(0, 0%, 27%); 
 }
 
 /*cabeçalho*/
@@ -9,8 +9,6 @@ body{
 header{
     background: #F5F5F5;
     padding: 40px 60px;
-    clear: right;
-
 }
 
 
@@ -28,14 +26,11 @@ header{
     margin-bottom: 18px;
     margin-left: -12px;
     margin-top: -2px;
-
-}
-.nome{
-    display: inline-block;
 }
 
-nav{
-    float: right;
+header .container{
+    display: flex;
+    justify-content: space-between;
 }
 
 
@@ -53,12 +48,13 @@ nav a{
 
 nav li{
     display: inline;
-    margin: 0 0 0 30px;
+    margin: 0 0 0 32px;
     
 }
 
 nav li:last-child{
     font-weight: bold;
+    
 }
 
 
@@ -66,7 +62,7 @@ nav li:last-child{
 
 .secao-apresentacao{
     padding: 10px;
- 
+    clear: right;
 }
 
 .texto-apresentacao{
@@ -75,6 +71,7 @@ nav li:last-child{
     width: 65%;
     margin-left: 50px;
     padding: 50px 0;
+    box-sizing: border-box;
     
 }
 
@@ -93,7 +90,6 @@ nav li:last-child{
     border-radius: 50%;
     margin: 10px; 
 }
-
 .redes li{
     display: inline;
     margin-right: 32px;
@@ -108,7 +104,6 @@ nav li:last-child{
 .secao-sobre-mim{
     background: #EAF2FD;
     padding: 60px 60px;
-    border-radius: 15px;
 }
 
 .secao-sobre-mim h2{
@@ -127,14 +122,15 @@ nav li:last-child{
 .secao-skills{
     padding: 40px 60px;
     text-align: center;
+    
 }
 
-.secao-skills h2, .secao-hobbies h2 {
+.secao-skills h2, .secao-hobbies h2, .secao-formacoes h2 {
     font-size: 32px;
     font-weight: bold;
 }
 
-.secao-skills ul, .secao-hobbies ul {
+.secao-skills ul, .secao-hobbies ul, .secao-formacoes ul {
     margin-top: 40px;
 
 }
@@ -160,16 +156,59 @@ nav li:last-child{
     text-align: center;
 }
 
+
+/*seção Formações*/
+
+.secao-formacoes{
+    background: #EAF2FD;
+    text-align: center;
+    padding: 60px 60px;
+}
+
+.secao-formacoes li{
+    background: white;
+    display: inline-block;
+    width: 346px;
+    height: 276px;
+    margin: 1.5%;
+    
+}
+
+.if-logo{
+    width: 190px;
+    height: 130px;
+}
+
+.secao-formacoes img{
+    margin: 45px;
+    
+}
+.secao-formacoes div{
+    background: #EAF2FD;
+    text-align: left; 
+}
+
+.nome-curso{
+    font-size: 22px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+.status{
+    margin-top: 10px; 
+}
+
 /*versão mobile*/
 @media (max-width: 600px){
-     header .secao-apresentacao,.secao-sobre-mim , .secao-skills, .secao-hobbies{
+     header .secao-apresentacao,.secao-sobre-mim , .secao-skills, .secao-hobbies, .secao-formacoes{
       width: auto;
-      margin: 0 auto;
+      margin:auto;
       padding: 20px;
     }
+
     nav li{
         display: none;
     }
+
     .secao-apresentacao{
        margin: 0 auto;
     }
@@ -182,5 +221,8 @@ nav li:last-child{
     .texto-apresentacao,.secao-sobre-mim h1, .secao-sobre-mim p{
         width: 100%;
     }
-
+   .secao-formacoes li{
+       margin-bottom: 5%;
+   }
+    
 }
