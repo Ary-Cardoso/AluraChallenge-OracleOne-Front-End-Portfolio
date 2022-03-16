@@ -199,26 +199,48 @@ nav li:last-child{
 
 /*versão mobile*/
 @media (max-width: 600px){
-     header .secao-apresentacao,.secao-sobre-mim , .secao-skills, .secao-hobbies, .secao-formacoes{
-      width: auto;
-      margin:auto;
+     header, .secao-apresentacao,.secao-sobre-mim , .secao-skills, .secao-hobbies, .secao-formacoes, .secao-experiencia-profissional{
+      margin:0 auto;
       padding: 20px;
+    }
+
+    nav li{
+        display: none;
     }
 
     .secao-apresentacao{
        margin: 0 auto;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
     }
     .texto-apresentacao{
         margin: 0;
+        padding: 0;
+    }
+
+    .texto-apresentacao h1{
+        font-size: 40px;
     }
     .imagem-perfil{
-        width: 50%;  
+        width: 50%;
+        order: -1;  
     }
-    .texto-apresentacao,.secao-sobre-mim h1, .secao-sobre-mim p{
+    .texto-apresentacao,.secao-sobre-mim h1, .secao-sobre-mim p, .imagem-decodificador, .imagem-controle-de-gastos{
         width: 100%;
     }
    .secao-formacoes li{
        margin-bottom: 5%;
    }
-    
-}
+
+    .container-decodificador, .container-controle-de-gastos{
+       flex-direction: column;
+       
+   }
+   .imagem-controle-de-gastos{
+       height: 202.64px;
+   }
+
+   .informacoes-projeto-controle-de-gastos{
+       order: 0;
+   }
