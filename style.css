@@ -1,8 +1,18 @@
 body{
     background: #F5F5F5;
     font-family: 'Raleway', sans-serif;
-    color: hsl(0, 0%, 27%); 
+    color: hsl(0, 0%, 27%);  
 }
+
+h2{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.secao-skills ul, .secao-hobbies ul, .secao-formacoes ul {
+    margin-top: 40px;
+}
+
 
 /*cabeçalho*/
 
@@ -62,7 +72,7 @@ nav li:last-child{
 
 .secao-apresentacao{
     padding: 10px;
-    clear: right;
+    
 }
 
 .texto-apresentacao{
@@ -70,7 +80,7 @@ nav li:last-child{
     vertical-align: top;
     width: 65%;
     margin-left: 50px;
-    padding: 50px 0;
+    padding: 60px 0;
     box-sizing: border-box;
     
 }
@@ -106,10 +116,6 @@ nav li:last-child{
     padding: 60px 60px;
 }
 
-.secao-sobre-mim h2{
-    font-size: 32px;
-    font-weight: bold;
-}
 .secao-sobre-mim p{
     font-size: 16px;
     width: 70%;
@@ -120,26 +126,16 @@ nav li:last-child{
 /*seção skills e hobbies*/
 
 .secao-skills{
-    padding: 40px 60px;
+    padding: 60px 60px 40px 60px;
     text-align: center;
     
-}
-
-.secao-skills h2, .secao-hobbies h2, .secao-formacoes h2 {
-    font-size: 32px;
-    font-weight: bold;
-}
-
-.secao-skills ul, .secao-hobbies ul, .secao-formacoes ul {
-    margin-top: 40px;
-
 }
 
 .secao-skills li, .secao-hobbies li{
     background: white;
     display: inline-block;
-    width: 136px;
-    height: 134px;
+    width: 126px;
+    height: 124px;
     text-align: left;
     padding: 10px;
     box-sizing: border-box;
@@ -147,12 +143,12 @@ nav li:last-child{
 }
 
 .secao-skills img, .secao-hobbies img{
-    margin-top: 70px;
+    margin-top: 60px;
 }
 
 
 .secao-hobbies{
-    padding: 0 60px;
+    padding: 0 60px 60px 60px;
     text-align: center;
 }
 
@@ -197,6 +193,127 @@ nav li:last-child{
     margin-top: 10px; 
 }
 
+
+/*Seçao experiência profissional*/
+
+.secao-experiencia-profissional{
+    padding: 60px;
+}
+
+.secao-experiencia-profissional h2{
+    text-align: center;
+}
+
+.container-decodificador{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.container-controle-de-gastos{
+    justify-content: flex-end;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.imagem-decodificador{
+    width: 55%;
+    height: auto;
+}
+
+.informacoes-projeto-decodificador{
+    margin: 2%;
+}
+
+.titulo-projeto{
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 0.5em;
+}
+
+.informacao-projeto{
+    margin-bottom: 0.5em;
+}
+
+.informacoes-projeto-decodificador button, .informacoes-projeto-controle-de-gastos button{
+    height: 45px;
+    width: 105px;
+}
+
+.demo-decodificador, .demo-controle-de-gastos{
+    background:#2A7AE4;
+    border: none;
+}
+
+.demo-decodificador a, .demo-controle-de-gastos a{
+    text-decoration: none;
+    color: white;
+}
+
+.repositorio-decodificador, .repositorio-controle-de-gastos{
+	border: 1px solid #2A7AE4;
+}
+
+.repositorio-decodificador a, .repositorio-controle-de-gastos a{
+    text-decoration: none;
+    color:#2A7AE4;
+}
+
+.informacoes-projeto-controle-de-gastos{
+    order: -1;
+   margin: 2%;
+}
+
+.imagem-controle-de-gastos{
+    width:55%;
+    height: auto;
+    box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+/*contato*/
+
+
+.secao-contato{
+    background: #EAF2FD;
+    padding: 60px 60px;
+}
+.container-contato{
+    display: flex;
+    justify-content: center;
+}
+
+.imagem-contato{
+    width:30%;
+}   
+
+.formulario{
+    width: 50%;
+    margin-left: 2%;
+}
+
+.formulario form{
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 10px;
+}
+
+.formulario label, .formulario h2, .label-nome{
+   margin-bottom: 0.5em;
+}
+
+.enviar{
+    width: 100px;
+    height: 45px;
+    background:#2A7AE4;
+    border: none;
+    color: white;
+    margin-top: 0.5em;
+}
+
+
+
 /*versão mobile*/
 @media (max-width: 600px){
      header, .secao-apresentacao,.secao-sobre-mim , .secao-skills, .secao-hobbies, .secao-formacoes, .secao-experiencia-profissional{
@@ -222,6 +339,10 @@ nav li:last-child{
     .texto-apresentacao h1{
         font-size: 40px;
     }
+    h2{
+        font-size: 28px;
+    }
+
     .imagem-perfil{
         width: 50%;
         order: -1;  
@@ -234,13 +355,19 @@ nav li:last-child{
    }
 
     .container-decodificador, .container-controle-de-gastos{
-       flex-direction: column;
-       
-   }
-   .imagem-controle-de-gastos{
-       height: 202.64px;
+      flex-direction: column; 
    }
 
    .informacoes-projeto-controle-de-gastos{
-       order: 0;
+       order: 0; 
    }
+
+   .imagem-contato{
+       display: none;
+   }
+   .formulario{
+       width: 100%;
+       
+   }
+    
+}
