@@ -25,9 +25,9 @@
                 <li><a href="#sobre-mim">Sobre mim</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#hobbies">Hobbies</a></li>
-                <li><a href="">Formação</a></li>
-                <li><a href="">Projetos</a></li>
-                <li><a href="">Contato</a></li>
+                <li><a href="#formacoes">Formação</a></li>
+                <li><a href="#experiencia-profissional">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
             </ul>
         </nav>
     </div>
@@ -120,8 +120,52 @@
                 </li>
             </ul>
         </section>
-        <div class="experiencia"></div>
-        <div class="contato"></div>
+        <section class="secao-experiencia-profissional" id="experiencia-profissional">
+            <h2>Experiência Profissional</h2>
+            <div class="container-decodificador">
+                <img src="imagens/img-decodificador-de-texto.png" alt="" class="imagem-decodificador">
+                <div class="informacoes-projeto-decodificador">
+                    <h3 class="titulo-projeto">Decodificador de texto</h3>
+                    <p class="informacao-projeto"> Challenge Alura Codificador</p>
+                    <button class="repositorio-decodificador"><a href="https://github.com/Ary-Cardoso/AluraChallenge-OracleOne-LogicaDeProgramacao-decodificador.git"> Repositório</a></button>
+                    <button class="demo-decodificador"><a href="https://ary-cardoso.github.io/AluraChallenge-OracleOne-LogicaDeProgramacao-decodificador/">Ver demo</a></button>
+                </div>
+            </div>
+
+            <div class="container-controle-de-gastos">
+                <img src="imagens/img-controle-de-gastos.png" alt="" class="imagem-controle-de-gastos">
+                <div class="informacoes-projeto-controle-de-gastos">
+                    <h3 class="titulo-projeto">Controle de gastos</h3>
+                    <p class="informacao-projeto">Challenge Alura Codificador</p>
+                    <button class="repositorio-controle-de-gastos">Repositório</button>
+                    <button class="demo-controle-de-gastos">Ver demo</button>
+                </div> 
+            </div>
+        </section>
+        <section class="secao-contato" id="contato">
+            <div class="container-contato">
+                <img src="imagens/img-contato.png" class="imagem-contato" alt="">
+                <div class="formulario">
+                    <h2>Contato</h2>
+                    <p class="texto-pergunta">Quer entrar em contato comigo?</p>
+                    <p>Preencha o formulário ao lado e entrarei em contato o mais rápido possível.</p>
+                    <form>
+                        <label for="mome">Nome</label>
+                        <input type="text" id="nome" class="input-padrao" required>
+
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" class="input-padrao" required>
+
+                        <label for="assunto">Assunto</label>
+                        <input type="text" id="assunto" class="input-padrao" required>
+
+                        <label for="mensagem">Mensagem</label>
+                        <textarea id="mensagem" cols="30" rows="10" class="input-padrao" required></textarea>
+                        <input type="submit" value="Enviar" class="enviar">
+                    </form>
+                 </div>
+            </div>
+        </section>
     </main>
     
 </body>
