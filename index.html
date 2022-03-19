@@ -22,11 +22,11 @@
     </div>
         <nav>
             <ul>
-                <li><a href="#sobre-mim">Sobre mim</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#hobbies">Hobbies</a></li>
-                <li><a href="#formacoes">Formação</a></li>
-                <li><a href="#experiencia-profissional">Projetos</a></li>
+                <li class="lista-cabecalho"><a href="#sobre-mim">Sobre mim</a></li>
+                <li class="lista-cabecalho"><a href="#skills">Skills</a></li>
+                <li class="lista-cabecalho"><a href="#hobbies">Hobbies</a></li>
+                <li class="lista-cabecalho"><a href="#formacoes">Formação</a></li>
+                <li class="lista-cabecalho"><a href="#experiencia-profissional">Projetos</a></li>
                 <li><a href="#contato">Contato</a></li>
             </ul>
         </nav>
@@ -42,7 +42,7 @@
                 <li>Currículo &#129125;</li>
             </ul>
             </div>
-            <img src="imagens/imagem-perfil.jpg" class="imagem-perfil">
+            <img src="imagens/img-perfil.jpg" class="imagem-perfil">
         </section>
 
         <section class="secao-sobre-mim" id="sobre-mim">
@@ -99,21 +99,21 @@
             <ul>
                 <li>
                     <img src="imagens/logo-if-sertao-pe.png" class="if-logo">
-                    <div>
+                    <div class="informacao-formacoes">
                     <p class="nome-curso">Licenciatura em Química</p>
                     <p class="status">Em andadamento - IF SertãoPE</p>
                     </div>
                 </li>
                 <li>
-                    <img src="imagens/logo-alura.png">
-                    <div>
+                    <img src="imagens/logo-alura.png" class="alura-logo">
+                    <div class="informacao-formacoes">
                     <p class="nome-curso">Iniciante em Programação - ONE</p>
                     <p class="status">2022 - Alura</p>
                     </div>
                 </li>
                 <li>
                     <img src="imagens/logo-alura.png" class="alura-logo">
-                    <div>
+                    <div class="informacao-formacoes">
                     <p class="nome-curso">Front-end - ONE</p>
                     <p class="status"> 2022 - Alura</p>
                     </div>
@@ -136,7 +136,7 @@
                 <img src="imagens/img-controle-de-gastos.png" alt="" class="imagem-controle-de-gastos">
                 <div class="informacoes-projeto-controle-de-gastos">
                     <h3 class="titulo-projeto">Controle de gastos</h3>
-                    <p class="informacao-projeto">Challenge Alura Codificador</p>
+                    <p class="informacao-projeto">Evento Elas Codam </p>
                     <button class="repositorio-controle-de-gastos">Repositório</button>
                     <button class="demo-controle-de-gastos">Ver demo</button>
                 </div> 
@@ -146,27 +146,30 @@
             <div class="container-contato">
                 <img src="imagens/img-contato.png" class="imagem-contato" alt="">
                 <div class="formulario">
-                    <h2>Contato</h2>
-                    <p class="texto-pergunta">Quer entrar em contato comigo?</p>
-                    <p>Preencha o formulário ao lado e entrarei em contato o mais rápido possível.</p>
-                    <form>
-                        <label for="mome">Nome</label>
-                        <input type="text" id="nome" class="input-padrao" required>
+                    <h2 class="titulo-contato">Contato</h2>
+                    <h3 class="texto-contato">Quer entrar em contato comigo?</h3>
+                    <h3 class="texto-contato">Preencha o formulário ao lado e entrarei em contato o mais rápido possível.</h3>
+                    <form name="form" class="form">
+                    
+                        <input class="contato-input" type="text" name="nome" id="nome2" placeholder="Nome" >
 
-                        <label for="email">E-mail</label>
-                        <input type="email" id="email" class="input-padrao" required>
+                        <input class="contato-input" type="email" name="email" id="email" placeholder="Email" >
 
-                        <label for="assunto">Assunto</label>
-                        <input type="text" id="assunto" class="input-padrao" required>
+                        <input class="contato-input" type="text" name="assunto" id="assunto" placeholder="Assunto" >
 
-                        <label for="mensagem">Mensagem</label>
-                        <textarea id="mensagem" cols="30" rows="10" class="input-padrao" required></textarea>
-                        <input type="submit" value="Enviar" class="enviar">
+                        <textarea class="contato-textarea" rows="5" cols="40" name="sua-mensagem" id="mensagem" placeholder="Mensagem"></textarea>
+                        
+                        <button class="enviar" type="submit" id="submit">Enviar</button>
                     </form>
                  </div>
             </div>
         </section>
+
+        <footer class="rodape">
+            <p>Desenvolvido por Ariany Stefany Cardosos Da Silva</p>
+            <p>2022</p>
+        </footer>
     </main>
-    
+    <script src="script.js"></script>
 </body>
 </html>
