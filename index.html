@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio</title>
     <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
@@ -49,9 +49,10 @@
 
         <section class="secao-sobre-mim" id="sobre-mim">
             <h2>Sobre mim</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit velit, volutpat semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse potenti. Ut semper sagittis ligula et lacinia. 
-            <br><br/>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit velit, volutpat semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse potenti. Ut semper sagittis ligula et lacinia. Aenean sit amet felis venenatis, egestas metus vitae, aliquet metus.</p>
+            <div class="texto-sobre-mim">
+                <p class="paragrafo-incial">Tenho 23 anos e sou natural de Bodocó Permambuco. Estou começando a tilhar meu caminho no universo da programação e espero aprender bastante e continuar desenvolvendo as habilidades necessárias como desenvolvedora web.</p>
+                <p class="paragrafo-final">Já adquiri bastante aprendizado no programa oracle ONE e sei que tenho muito a aprender. Pretento continuar seguindo esse caminho cheio de conhecimentos, experiências e descobertas que me ajudarão a crescer e melhorar cada vez mais, para assim conseguir encarar os desafios que essa área exige.</p>
+            </div>
         </section>
 
         <section class="secao-skills" id="skills">
@@ -117,7 +118,7 @@
                     <img src="imagens/logo-alura.png" class="alura-logo" alt="logo Alura">
                     <div class="informacao-formacoes">
                     <h3 class="nome-curso">Front-end - ONE</h3>
-                    <p class="status"> 2022 - Alura</p>
+                    <p class="status"> Em andadamento - Alura</p>
                     </div>
                 </li>
             </ul>
@@ -151,8 +152,7 @@
                     <h2 class="titulo-contato">Contato: ary_cardoso@outlook.com</h2>
                     <p class="texto-contato">Quer entrar em contato comigo?</p>
                     <p class="texto-contato">Preencha o formulário ao lado e entrarei em contato o mais rápido possível.</p>
-                    <form name="form" class="form" action="https://formsubmit.co/ary_cardoso@outlook.com"  method="post">
-                        <input type="hidden" name="_next" value="http://127.0.0.1:5500/envio.html">
+                    <form name="form" class="form" action="http://127.0.0.1:5500/envio/envio.html">
 
                         <input class="contato-input" type="text" name="nome" id="seu-nome" placeholder="Nome" >
 
