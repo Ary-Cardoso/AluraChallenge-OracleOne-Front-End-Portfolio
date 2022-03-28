@@ -1,0 +1,42 @@
+body{
+    background-color: #EAF2FD;
+    font-family: 'Raleway', sans-serif;
+    color: hsl(0, 0%, 27%);
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+.mensagem{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    width: 320px;
+    height: 180px;
+    border-radius: 5px;  
+    box-sizing: border-box;
+}
+
+.texto{
+    font-size: 42px;
+    font-weight: bold; 
+    padding: 45px 10px;
+}
+
+.mensagem button{
+    padding: 5px;
+    width: 65px;
+    border: none;
+    border-radius: 2px;
+    background-color: #2A7AE4;
+    box-shadow: 0px 2px 2px 0px #00000040;
+}
+
+.mensagem a {
+    text-decoration: none;
+    color: white; 
+}
+
