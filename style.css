@@ -130,9 +130,13 @@ nav li:last-child{
     padding: 60px;
 }
 
-.secao-sobre-mim p{
+.texto-sobre-mim{
     width: 70%;
     margin-top: 22px;
+}
+
+.paragrafo-final{
+    margin-top: 0.5em;
 }
 
 
@@ -409,8 +413,8 @@ nav li:last-child{
 }
 
 @media (max-width: 600px){
-     header, .secao-apresentacao,.secao-sobre-mim , .secao-skills, .secao-formacoes, .secao-experiencia-profissional, .secao-contato, .rodape{
-      padding: 20px;
+     header, .secao-apresentacao,.secao-sobre-mim , .secao-skills, .secao-formacoes, .secao-experiencia-profissional, .secao-contato{
+      padding: 35px 20px;
     }
 
     .lista-cabecalho{
@@ -445,7 +449,6 @@ nav li:last-child{
    .secao-formacoes li{
        margin: 4% 0;
        width: 100%;
-       height: auto;
    }
 
     .container-decodificador, .container-controle-de-gastos{
@@ -468,7 +471,11 @@ nav li:last-child{
        width: 100%;
        margin: 0;
    }
-    
+
+    .rodape{
+        padding: 20px;
+    }
+
 }
 
 
