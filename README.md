@@ -1,3 +1,3 @@
 # AluraChallenge-OracleOne-Front-End-Portfolio
-gggggg
-github pages: https://ary-cardoso.github.io/AluraChallenge-OracleOne-Front-End-Portfolio/
+Primeiro Alura challenge - Oracle ONE da formação Front-end: Um portfólio com HTML, CSS e JavaScript.
+Github pages: https://ary-cardoso.github.io/AluraChallenge-OracleOne-Front-End-Portfolio/
