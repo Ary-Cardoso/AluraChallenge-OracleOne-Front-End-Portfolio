@@ -61,7 +61,7 @@ nav a{
 
 nav li{
     display: inline;
-    margin: 0 0 0 32px;  
+    margin: 0 0 0 32px; 
 }
 
 nav li:last-child{
@@ -108,7 +108,7 @@ nav li:last-child{
 }
 
 .lista-informacoes li:after{
-    content:"🡥";
+    content:url(./imagens/img-seta.png);
 }
 
 
@@ -131,7 +131,7 @@ nav li:last-child{
 }
 
 .texto-sobre-mim{
-    width: 70%;
+    width: 65%;
     margin-top: 22px;
 }
 
@@ -291,13 +291,19 @@ nav li:last-child{
     background-color: #EAF2FD;
     padding: 60px;
 }
+.titulo-contato{
+    text-align: center;
+}
 .container-contato{
+    margin-top: 40px;
     display: flex;
     justify-content: center;
 }
 
-.titulo-contato{
-    margin-bottom: 25px ;
+
+.email-contato{
+    font-weight: bold;
+    margin-bottom: 25px;
 }
 
 .imagem-contato{
@@ -329,7 +335,7 @@ nav li:last-child{
 .contato-textarea{
     border: none;
     margin: 10px 0;
-    height: 90px;
+    height: 100px;
     width: 100%;
 }
 
@@ -376,7 +382,7 @@ nav li:last-child{
         font-size: 16px;
     }
 
-    .secao-sobre-mim p {
+    .texto-sobre-mim{
         width: 100%;
     }
 
@@ -435,11 +441,12 @@ nav li:last-child{
     }
 
     .imagem-perfil{
-        width: 50%;
+        width: 55%;
+        margin-bottom: 10px;
         height: auto;
         order: -1;  
     }
-    .texto-apresentacao, .secao-sobre-mim p{
+    .texto-apresentacao, .texto-sobre-mim{
         width: 100%;
     }
 
@@ -477,6 +484,3 @@ nav li:last-child{
     }
 
 }
-
-
-
