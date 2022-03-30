@@ -11,19 +11,17 @@ main{
 .mensagem{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 140px;
     width: 320px;
-    height: 180px;
+    height: 140px;
     border-radius: 5px;  
-    box-sizing: border-box;
 }
 
 .texto{
     font-size: 42px;
     font-weight: bold; 
-    padding: 45px 10px;
 }
 
 .mensagem button{
