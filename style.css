@@ -1,7 +1,7 @@
 body{
     background-color: #F5F5F5;
     font-family: 'Raleway', sans-serif;
-    color: hsl(0, 0%, 27%);  
+    color: hsl(0, 0%, 27%); 
 }
 
 h2{
@@ -81,14 +81,15 @@ nav li:last-child{
     justify-content: space-between;
 }
 
+.titulo{
+    font-weight: bold;
+    font-size: 52px;
+}
+
 .texto-apresentacao{
     padding-left: 10px;
 }
 
- h1{
-    font-weight: bold;
-    font-size: 52px;
-}
 
 .texto-apresentacao p {
     font-size: 22px;
@@ -136,7 +137,7 @@ nav li:last-child{
 }
 
 .paragrafo-final{
-    margin-top: 0.5em;
+    margin-top: 10px;
 }
 
 
@@ -155,7 +156,7 @@ nav li:last-child{
     text-align: left;
     padding: 10px;
     box-sizing: border-box;
-    margin: 2.5%;
+    margin: 20px;
 }
 
 .secao-skills img, .secao-hobbies img{
@@ -182,7 +183,7 @@ nav li:last-child{
     display: inline-block;
     width: 346px;
     height: 276px;
-    margin: 1.5%; 
+    margin: 15px; 
 }
 
 .if-logo, .alura-logo{
@@ -300,7 +301,6 @@ nav li:last-child{
     justify-content: center;
 }
 
-
 .email-contato{
     font-weight: bold;
     margin-bottom: 25px;
@@ -374,8 +374,8 @@ nav li:last-child{
         display: none;
     }
 
-    h1{
-        font-size: 28px;
+    .titulo{
+        font-size: 26px;
     }
 
     .texto-apresentacao p{
@@ -387,7 +387,7 @@ nav li:last-child{
     }
 
     h2{
-        font-size: 28px;
+        font-size: 26px;
     }
 
     .imagem-perfil{
@@ -413,7 +413,7 @@ nav li:last-child{
     }
 
     .formulario{
-        width: 85%;
+        width: 90%;
         margin: 0;
     }
 }
@@ -432,9 +432,9 @@ nav li:last-child{
        flex-direction: column;
     }
 
-     h1, h2 {
-        font-size: 26px;
-    }
+    .titulo, h2{
+         font-size: 26px;
+     } 
 
     .secao-apresentacao p{
         font-size: 16px;
@@ -450,11 +450,15 @@ nav li:last-child{
         width: 100%;
     }
 
+    .secao-skills li, .secao-hobbies li{
+        margin: 15px;
+    }
+
     .secao-hobbies{
         padding: 20px 10px;
     }
    .secao-formacoes li{
-       margin: 4% 0;
+       margin: 15px 0;
        width: 100%;
    }
 
